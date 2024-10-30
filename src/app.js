@@ -33,14 +33,3 @@ function excuseGenerator() {
 
   document.getElementById("generatedExcuse").innerText = excuse;
 }
-
-// function excuseGenerator() {
-
-//   let excuse = `${who[Math.floor(Math.random() * who.length)]}${
-//     action[Math.floor(Math.random() * action.length)]
-//   }${what[Math.floor(Math.random() * what.length)]}${
-//     when[Math.floor(Math.random() * when.length)]
-//   }`;
-
-//   document.getElementById("generatedExcuse").innerText = excuse;
-// }
